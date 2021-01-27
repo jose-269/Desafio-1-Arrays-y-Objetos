@@ -1,0 +1,32 @@
+.main {
+    .radiologia{
+        &__diarias, span {
+            color: $light-black;
+        }
+        hr {
+            margin: 0 3.5rem ;
+        }
+    }
+}
+
+.main {
+    .traumatologia{
+        &__diarias, span {
+            color: $light-black;
+        }
+        hr {
+            margin: 0 3.5rem ;
+        }
+    }
+}
+
+.main {
+    .dental{
+        &__diarias, span {
+            color: $light-black;
+        }
+        hr {
+            margin: 0 3.5rem ;
+        }
+    }
+}

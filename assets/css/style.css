@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Passion One", cursive;
+  font-weight: 400;
+  font-size: 3.4375rem;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 1.5625rem;
+}
+
+p, span {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.nav {
+  background-color: #15d897;
+}
+.nav__title {
+  color: #fff;
+}
+
+.main .radiologia__diarias, .main .radiologia span {
+  color: #1b1b1b;
+}
+.main .radiologia hr {
+  margin: 0 3.5rem;
+}
+
+.main .traumatologia__diarias, .main .traumatologia span {
+  color: #1b1b1b;
+}
+.main .traumatologia hr {
+  margin: 0 3.5rem;
+}
+
+.main .dental__diarias, .main .dental span {
+  color: #1b1b1b;
+}
+.main .dental hr {
+  margin: 0 3.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav i {
+  font-size: 3.4375rem;
+  padding-left: 3.5rem;
+  color: #fff;
+}
+.nav__title {
+  padding: 1.3rem 0 1.3rem 2rem;
+}
+
+.main .radiologia__title {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.main .radiologia__diarias, .main .radiologia__primera-ultima {
+  padding: 1.5rem 0 0.5rem 3.5rem;
+}
+
+.main .traumatologia__title {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.main .traumatologia__diarias, .main .traumatologia__primera-ultima {
+  padding: 1.5rem 0 0.5rem 3.5rem;
+}
+
+.main .dental__title {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.main .dental__diarias, .main .dental__primera-ultima {
+  padding: 1.5rem 0 0.5rem 3.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

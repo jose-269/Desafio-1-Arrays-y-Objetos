@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    align-items: center;
+    i {
+        font-size: $xxx-large;
+        padding-left: 3.5rem;
+        color: $white;
+    }
+    &__title {
+        padding: 1.3rem 0 1.3rem 2rem;
+    }
+}
+
+.main {
+    .radiologia{
+        &__title {
+            text-align: center;
+            padding-top: 1.5rem;
+        }
+        &__diarias, &__primera-ultima {
+            padding: 1.5rem 0 .5rem 3.5rem;
+        }
+    }
+}
+
+.main {
+    .traumatologia{
+        &__title {
+            text-align: center;
+            padding-top: 1.5rem;
+        }
+        &__diarias, &__primera-ultima {
+            padding: 1.5rem 0 .5rem 3.5rem;
+        }
+    }
+}
+
+.main {
+    .dental{
+        &__title {
+            text-align: center;
+            padding-top: 1.5rem;
+        }
+        &__diarias, &__primera-ultima {
+            padding: 1.5rem 0 .5rem 3.5rem;
+        }
+    }
+}
